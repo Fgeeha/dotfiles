@@ -19,6 +19,15 @@ set historylog
 # it is not useful:
 # set linenumbers
 
-# Syntax highlight:
+## ── Syntax highlighting ──
+# macOS (Homebrew, Apple Silicon)
 include /opt/homebrew/opt/nano/share/nano/*.nanorc
 include /opt/homebrew/opt/nano/share/nano/extra/*.nanorc
+
+# macOS (Homebrew, Intel)
+/usr/local/opt/nano/share/nano/*.nanorc
+include /usr/local/opt/nano/share/nano/extra/*.nanorc
+
+# Linux (дистрибутивные пакеты)
+include /usr/share/nano/*.nanorc
+include /usr/share/nano/extra/*.nanorc
