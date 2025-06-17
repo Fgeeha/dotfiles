@@ -12,18 +12,19 @@
 ## Установка
 
 ```bash
-git clone https://github.com/fgeeha/dotfiles.git ~
 cd ~
-stow shell
+git clone https://github.com/fgeeha/dotfiles.git ~ && cd dotfiles
+cp . ../
 ```
 
-Убедитесь, что установлен Zsh и Powerlevel10k:
+Убедитесь, что установлен Zsh и ohmyzsh:
 
 - macOS:
 ```bash
-brew install zsh git powerlevel10k direnv
+brew install zsh git direnv
+# starship
 curl -sS https://starship.rs/install.sh | sh
-git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 - Ubuntu:
@@ -32,8 +33,7 @@ git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 sudo apt install zsh git direnv
 # starship
 curl -sS https://starship.rs/install.sh | sh
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
-git clone --depth=1 https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 После установки:
