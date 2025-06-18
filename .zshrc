@@ -30,6 +30,10 @@ plugins=(
   zsh-autosuggestions
   golang
   python
+  pip
+  pipenv
+  poetry
+  poetry-env
   uv
 )
 # Path to your oh-my-zsh installation.
