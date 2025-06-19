@@ -28,6 +28,7 @@ plugins=(
   gh
   zsh-syntax-highlighting
   zsh-autosuggestions
+  zsh-bat
   golang
   python
   pip

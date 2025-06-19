@@ -4,6 +4,7 @@
 alias k="kubectl"
 alias h="helm"
 alias c="clear"
+alias cat='bat'
 alias pip="pip3"
 alias py="python3"
 alias python="python3"
