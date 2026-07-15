@@ -1,0 +1,30 @@
+# VSCode extensions for the "Python Backend" profile.
+# Regenerate: code --profile "Python Backend" --list-extensions
+# Install:    make vscode   (or ./install.sh --vscode-only)
+
+charliermarsh.ruff
+docker.docker
+eamodio.gitlens
+editorconfig.editorconfig
+github.remotehub
+gruntfuggly.todo-tree
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode.azure-repos
+ms-vscode.cmake-tools
+ms-vscode.cpp-devtools
+ms-vscode.remote-explorer
+ms-vscode.remote-repositories
+ms-vscode.remote-server
+pkief.material-icon-theme
+redhat.vscode-yaml
+sst-dev.opencode
+tamasfe.even-better-toml
+usernamehw.errorlens

@@ -1,0 +1,9 @@
+{
+    // ${userHome} keeps this portable — the original hardcoded /home/nkolesnikov.
+    "servers": {
+        "codebase-memory-mcp": {
+            "type": "stdio",
+            "command": "${userHome}/.local/bin/codebase-memory-mcp"
+        }
+    }
+}

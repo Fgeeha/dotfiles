@@ -1,0 +1,27 @@
+#
+# Template for ~/.zshenv.local — machine-local secrets and overrides.
+#
+# This example file IS tracked by git. The real ~/.zshenv.local is NOT: it is
+# listed in .gitignore, and it is the only place tokens should ever live.
+#
+# Usage:
+#     cp zsh/zshenv.local.example ~/.zshenv.local
+#     chmod 600 ~/.zshenv.local
+#     $EDITOR ~/.zshenv.local      # fill in the real values
+#
+# `make install` copies this template for you if ~/.zshenv.local is missing.
+# It is sourced from ~/.zshenv, so it applies to scripts as well as terminals.
+#
+# Never replace a placeholder here and commit it. If a token does get committed,
+# rotate it first — scrubbing git history does not un-publish it.
+#
+
+# Kaggle API token — https://www.kaggle.com/settings/account -> "Create New Token".
+# KAGGLE_USERNAME is not secret and is set in zsh/exports.zsh instead.
+export KAGGLE_KEY=''
+
+# GitHub personal access token — https://github.com/settings/tokens
+export GITHUB_TOKEN=''
+
+# Hugging Face token — https://huggingface.co/settings/tokens
+export HF_TOKEN=''

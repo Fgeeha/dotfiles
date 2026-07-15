@@ -1,0 +1,21 @@
+# VSCode extensions for the "Frontend" profile.
+# Regenerate: code --profile "Frontend" --list-extensions
+# Install:    make vscode   (or ./install.sh --vscode-only)
+
+bradlc.vscode-tailwindcss
+dbaeumer.vscode-eslint
+docker.docker
+eamodio.gitlens
+editorconfig.editorconfig
+esbenp.prettier-vscode
+gruntfuggly.todo-tree
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+ms-vscode-remote.remote-containers
+ms-vscode.cmake-tools
+ms-vscode.cpp-devtools
+pkief.material-icon-theme
+redhat.vscode-yaml
+rvest.vs-code-prettier-eslint
+tamasfe.even-better-toml
+usernamehw.errorlens

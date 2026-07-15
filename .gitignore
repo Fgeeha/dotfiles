@@ -47,3 +47,32 @@ Brewfile.lock.json
 private/
 
 .nano-backups
+
+#### secrets — never commit ####
+# Machine-local overrides holding real tokens. zsh/zshenv.local.example is the
+# tracked template; every *.local file is ignored. The negation keeps the
+# example itself visible to git.
+*.local
+!*.local.example
+.zshenv.local
+.env
+.env.*
+
+# Keys and credentials
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+credentials.json
+*_token*
+*_secret*
+
+#### install artifacts ####
+# Backups install.sh makes before replacing an existing config.
+*.backup
+*.backup.*
+
+#### tooling ####
+# Локальные логи и настройки инструментов, не относятся к конфигам.
+.claude/
